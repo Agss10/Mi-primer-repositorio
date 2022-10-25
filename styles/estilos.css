@@ -1,0 +1,655 @@
+.TituloII {
+    display: inline-block;
+    font-size: 70px;
+    text-align: center;
+    font-family: 'Bungee Spice', cursive;
+    color: black;
+    margin: 110px 60px 30px 0px;
+}
+
+.conteiner-titulo {
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    background-color: #2948ff;
+}
+
+.logotitulo {
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    border-radius: 20%;
+    margin-top: 80px;
+    padding-bottom: 10px;
+}
+
+.nav-link:hover {
+    color: black;
+
+}
+
+.img {
+    height: 250px;
+    width: 250px;
+}
+
+.inicio {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    color: black;
+    padding: 60px 0px;
+    margin: auto;
+    max-width: 1000px;
+    overflow: hidden;
+    text-align: center;
+    flex-direction: row;
+    margin-top: auto;
+    margin: bottom 0px;
+}
+
+.textoinicio {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+}
+
+header {
+    background-color: #2948ff;
+    position: fixed;
+    display: sticky;
+    width: 100%;
+    margin-top: 0%;
+    box-shadow: 0 0 15px rgb(0, 0, 0);
+}
+
+/*BASQUET 22 -index-*/
+
+
+.b22 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    color: black;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.photos {
+    display: flex;
+    justify-content: space-around;
+}
+
+body {
+    background: #0052D4;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #6FB1FC, #4364F7, #0052D4);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #6FB1FC, #4364F7, #0052D4);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+
+/*TABLA DE POSICIONES -index-*/
+
+
+.tabladepI {
+    width: 50%;
+    margin-top: 50px;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.tableI {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: solid 1px lightblue;
+    margin-top: 50px;
+    color: black;
+    box-shadow: 5px 5px 20px #0f1951;
+    width: 480px;
+    height: 550px;
+    display: inline-block;
+
+
+}
+
+.tableI td {
+    border-bottom: 1px solid black;
+    padding: 15px;
+    font-size: 20px;
+    justify-content: center;
+    margin-right: 0px;
+
+}
+
+.tableI thead {
+    font-weight: 700;
+}
+
+.cuadradoI {
+    display: flexbox;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+}
+
+
+
+/*MENU Y SUBMENU DESPLEGABLE*/
+
+
+* {
+    margin: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+ul,
+il {
+    list-style: none;
+}
+
+.nav>li {
+    float: left;
+
+}
+
+.nav li a {
+    background-color: #2948ff;
+    color: #fff;
+    text-decoration: none;
+    padding: 20px 12px;
+    display: block;
+}
+
+
+.nav li a:hover {
+    background-color: black;
+}
+
+.nav li ul {
+    display: none;
+    position: absolute;
+    min-width: 140px;
+}
+
+.nav li:hover>ul {
+    display: inline-block;
+}
+
+.nav li ul li {
+    position: relative;
+}
+
+.nav li ul li ul {
+    right: -140px;
+}
+
+
+/*GALERIA -index-*/
+
+
+
+.galeria {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.fotogaleria {
+    display:inline-block;
+    justify-content: space-between;
+    object-fit: cover;
+    margin: 20px 20px;
+
+}
+
+.menu {
+    display: inline-block;
+}
+
+
+
+/*BUSCADOR*/
+
+
+
+.conteiner-buscar {
+    padding: 0px;
+    display: inline-block;
+    background-color: #2948ff;
+    padding-left: 0;
+    margin: 10px;
+    margin-top: 20px;
+    margin-right: 0%;
+    color: white;
+}
+
+.buscar {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
+/*FOOTER*/
+
+
+.contacto {
+    border: 1px solid black;
+    margin-top: 60px;
+    display: inline-block;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-right: 100px;
+    padding: 15px;
+}
+
+
+.redes {
+    margin-top: 0px;
+    display: inline-block;
+    margin-right: 100px;
+    padding: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.ubicacion {
+    text-decoration: line;
+    margin-top: 60px;
+    display: inline-block;
+    margin-right: 200px;
+    margin-bottom: 15px;
+    margin-left:20px;
+    padding: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.titulofinal {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    margin-top: 50px;
+}
+
+.botonesredes {
+    min-width: 700px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 50px;
+}
+
+.botones.redes a {
+    text-decoration: none;
+    font-size: 50px;
+    width: 200px;
+    height: 200px;
+    line-height: 60px;
+    text-align: center;
+    background: white;
+    color: white;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgb(0, 0, 0 .5);
+    transition: all 4.s ease-in-out;
+}
+
+.botones.redes a:hover {
+    transform: scale(1.2);
+}
+
+.fa-twitter {
+    color: black;
+    text-decoration: none;
+}
+
+.fa-facebook {
+    text-decoration: none;
+    color: black;
+}
+
+.fa-instagram {
+    text-decoration: none;
+    color: black;
+
+}
+
+
+
+/*PRUEBA DE BARRA DE REDES SOCIALES*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container-bar {
+    width: 100%;
+    max-width: 50px;
+    position: fixed;
+    left: 0;
+    top: 25%;
+}
+
+.container-bar a {
+    display: block;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+    transition: all 500ms ease;
+    color: white;
+}
+
+.container-bar a:hover {
+    background: #1c1c1c;
+}
+
+.container-bar .fa-facebook {
+    background: #3b5998;
+    border-radius: 0px 5px 0px 0px;
+}
+
+.container-bar .fa-youtube {
+    background: #e52a23;
+}
+
+.container-bar .fa-twitter {
+    background: #00acee;
+}
+
+.container-bar .fa-instagram {
+    background: purple;
+}
+
+.container-bar .fa-whatsapp {
+    background: green;
+}
+.container-bar .fa-google {
+    background: yellowgreen;
+}
+.container-bar .fa-at {
+    background: lightslategray;
+}
+
+
+.container-bar #title {
+    position: absolute;
+    background: #1c1c1c;
+    padding: 0px 8px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 3px;
+    font-size: 15px;
+    top: 12px;
+    left: 0px;
+    transition: all 500ms ease;
+    opacity: 0;
+    visibility: hidden;
+    z-index: -1;
+}
+
+.container-bar a:hover #title {
+    opacity: 1;
+    visibility: visible;
+    left: 64px;
+}
+
+.container-bar #title:after {
+    position: absolute;
+    content: '';
+    border-left: 7px solid transparent;
+    border-right: 6px solid #1c1c1c;
+    border-top: 7px solid transparent;
+    border-bottom: 7px solid transparent;
+    right: 100%;
+    top: 8px;
+}
+
+#btn-social {
+    display: none;
+}
+
+.fa-play {
+    cursor: pointer;
+    transition: all 0.4s;
+    font-size: 12px;
+    margin-bottom: 5px;
+    display: inline-block;
+    transform: rotate(180deg);
+    color: red;
+}
+
+#btn-social:checked~.fa-play {
+    transform: rotate(0deg);
+}
+
+.icon-social {
+    transition: all 0.4s;
+    transform: translateX(0%);
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
+}
+
+#btn-social:checked~.icon-social {
+    transform: translateX(-100%);
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.0);
+}
+
+
+/*DIVISION DE SPONSORS INDEX*/
+
+
+.conteiner.publicidad{
+display: block;
+justify-content: space-between;
+object-fit: cover;
+
+}
+
+.imgp{
+    display: inline-block;
+    justify-content: space-between ;
+    width: 200px;
+    height: 200px;
+    margin-top: 50px;
+    opacity: 0,1;
+   
+    
+}
+
+
+
+/*PAGINA TABLA DE POSICIONES*/
+
+
+.tabladep {
+    width: 50%;
+    margin-top: 50px;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.table {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: solid 1px lightblue;
+    margin-top: 50px;
+    color: black;
+    box-shadow: 5px 5px 20px #0f1951;
+    width: 500px;
+    height: 550px;
+    display: inline-block;
+
+}
+
+.table td {
+    border-bottom: 1px solid black;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.table thead {
+    font-weight: 700;
+}
+
+.cuadrado {
+    display: flexbox;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+}
+
+
+/*PAGINA FIXTURES*/
+
+
+.fixture {
+    width: 50%;
+    margin-top: 50px;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.tableF {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: solid 1px lightblue;
+    margin-top: 50px;
+    color: black;
+    box-shadow: 5px 5px 20px #0f1951;
+    width: 600px;
+    height: 520px;
+    display: inline-block;
+
+}
+
+.tableF td {
+    border-bottom: 1px solid black;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.tableF thead {
+    font-weight: 700;
+}
+
+.cuadradoF {
+    display: flexbox;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+}
+
+
+
+
+
+/*CARDS - BASQUET 2022*/
+
+
+
+.card1 {
+
+    margin-left: 50px;
+    padding: 10px;
+    display: inline-block;
+
+}
+
+.card-title {
+    color: black solid;
+    font-size: larger;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.card-text {
+    font-size: medium;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.card-img {
+    width: 250px;
+    height: 250px;
+    display: inline-block;
+}
+
+.btn-card {
+    color: blue solid;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+
+
+
+/* RESPONSIVE MOBILE */  /*BASQUET2022.HMTL*/
+   
+@media screen and (max-widht:667px)and(min-widht:375px) {
+   
+   
+    .TituloII {
+        display: inline-block;
+        font-size: 20px;
+        text-align: center;
+        font-family: 'Bungee Spice', cursive;
+        color: black;
+        margin: 110px 60px 30px 0px;
+    }
+    
+    .conteiner-titulo {
+        justify-content: center;
+        text-align: center;
+        display: flex;
+        background-color: #2948ff;
+    }
+    
+    .logotitulo {
+        display: inline-block;
+        width: 150px;
+        height: 150px;
+        border-radius: 20%;
+        margin-top: 80px;
+        padding-bottom: 10px;
+    }
+    
+   
+   
+   
+   
+    .card1 {
+
+        margin-left: 50px;
+        padding: 10px;
+        display: inline-block;
+    
+    }
+    
+    .card-title {
+        color: black solid;
+        font-size: larger;
+        font-weight: bold;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    
+    .card-text {
+        font-size: medium;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+    }
+    
+    .card-img {
+        width: 250px;
+        height: 250px;
+        display: inline-block;
+    }
+    
+    .btn-card {
+        color: blue solid;
+        font-weight: bold;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+    }
+    
+}
