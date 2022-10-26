@@ -1,3 +1,4 @@
+
 .TituloII {
     display: inline-block;
     font-size: 70px;
@@ -32,6 +33,13 @@
     height: 250px;
     width: 250px;
 }
+
+
+
+
+
+/* INICIO INDEX.HTML*/
+
 
 .inicio {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -234,81 +242,12 @@ il {
 /*FOOTER*/
 
 
-.contacto {
-    border: 1px solid black;
-    margin-top: 60px;
-    display: inline-block;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    margin-right: 100px;
-    padding: 15px;
-}
-
-
-.redes {
-    margin-top: 0px;
-    display: inline-block;
-    margin-right: 100px;
-    padding: 15px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
-.ubicacion {
-    text-decoration: line;
-    margin-top: 60px;
-    display: inline-block;
-    margin-right: 200px;
-    margin-bottom: 15px;
-    margin-left:20px;
-    padding: 15px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
 .titulofinal {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 40px;
     margin-top: 50px;
 }
 
-.botonesredes {
-    min-width: 700px;
-    display: flex;
-    justify-content: space-around;
-    font-size: 50px;
-}
-
-.botones.redes a {
-    text-decoration: none;
-    font-size: 50px;
-    width: 200px;
-    height: 200px;
-    line-height: 60px;
-    text-align: center;
-    background: white;
-    color: white;
-    border-radius: 50%;
-    box-shadow: 2px 2px 5px rgb(0, 0, 0 .5);
-    transition: all 4.s ease-in-out;
-}
-
-.botones.redes a:hover {
-    transform: scale(1.2);
-}
-
-.fa-twitter {
-    color: black;
-    text-decoration: none;
-}
-
-.fa-facebook {
-    text-decoration: none;
-    color: black;
-}
-
-.fa-instagram {
-    text-decoration: none;
-    color: black;
-
-}
 
 
 
@@ -584,18 +523,19 @@ object-fit: cover;
 
 
 
-/* RESPONSIVE MOBILE */  /*BASQUET2022.HMTL*/
+/* RESPONSIVE MOBILE (iphone xr) */  /*BASQUET2022.HMTL*/
    
-@media screen and (max-widht:667px)and(min-widht:375px) {
-   
-   
+@media screen and (max-width: 896px){
+
+
+
     .TituloII {
-        display: inline-block;
-        font-size: 20px;
+        font-size: 35px;
         text-align: center;
         font-family: 'Bungee Spice', cursive;
         color: black;
         margin: 110px 60px 30px 0px;
+        margin-left: 100px;
     }
     
     .conteiner-titulo {
@@ -607,49 +547,84 @@ object-fit: cover;
     
     .logotitulo {
         display: inline-block;
-        width: 150px;
-        height: 150px;
+        width: 85px;
+        height: 85px;
         border-radius: 20%;
-        margin-top: 80px;
-        padding-bottom: 10px;
+        margin-top: 130px;
+        padding-bottom: 5px;
+        margin-right: 100px;
     }
     
-   
-   
-   
-   
-    .card1 {
+    .nav-link:hover {
+        color: black;
+    
+    }
+    
+    .img {
+        height: 100px;
+        width: 100px;
+    }
+     
+    .nav li a {
+        background-color: #2948ff;
+        color: #fff;
+        text-decoration: none;
+        padding: 5px 10px;
+        display: block;
+    }
+    
+    .conteiner-buscar {
+        display: inline-block;
+        background-color: #2948ff;
+        padding-left: 0;
+        margin: 10px;
+        margin-top: 3px;
+        margin-right: 0%;
+        color: white;
+    }
+}
 
-        margin-left: 50px;
+
+/* RESPONSIVE MOBILE (iphone xr) */  /*FIXTURE.HMTL*/
+
+@media screen and (max-width: 896px){
+
+
+    .fixture {
+        width: 50%;
+        margin-top: 50px;
+        color: black;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    
+    .tableF {
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        border: solid 1px lightblue;
+        margin-top: 50px;
+        color: black;
+        box-shadow: 5px 5px 20px #0f1951;
+        width: 400px;
+        height: 710px;
+        display: inline-block;
+    
+    }
+    
+    .tableF td {
+        border-bottom: 1px solid black;
         padding: 10px;
-        display: inline-block;
-    
+        font-size: 15px;
     }
     
-    .card-title {
-        color: black solid;
-        font-size: larger;
-        font-weight: bold;
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    .tableF thead {
+        font-weight: 700;
     }
     
-    .card-text {
-        font-size: medium;
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    
+    .cuadradoF {
+        display: flexbox;
+        flex-wrap: wrap;
+        text-align: center;
+        justify-content: center;
     }
-    
-    .card-img {
-        width: 250px;
-        height: 250px;
-        display: inline-block;
-    }
-    
-    .btn-card {
-        color: blue solid;
-        font-weight: bold;
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    
-    }
-    
+
+
 }
