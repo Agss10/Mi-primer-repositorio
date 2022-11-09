@@ -1,0 +1,35 @@
+$color_1: black;
+$font-family_1: 'Bungee Spice', cursive;
+$background-color_1: #2948ff;
+
+.TituloII {
+	display: inline-block;
+	font-size: 70px;
+	text-align: center;
+	font-family: $font-family_1;
+	color: $color_1;
+	margin: 110px 60px 30px 0px;
+}
+.conteiner-titulo {
+	justify-content: center;
+	text-align: center;
+	display: flex;
+	background-color: $background-color_1;
+}
+.logotitulo {
+	display: inline-block;
+	width: 150px;
+	height: 150px;
+	border-radius: 20%;
+	margin-top: 80px;
+	padding-bottom: 10px;
+}
+.nav-link {
+	&:hover {
+		color: $color_1;
+	}
+}
+.img {
+	height: 250px;
+	width: 250px;
+}
