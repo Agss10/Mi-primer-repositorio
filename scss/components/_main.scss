@@ -17,10 +17,13 @@ $background-color_1: #2948ff;
 	margin-top: auto;
 	margin: bottom 0px;
 }
+.textocenter{
+	display: flex;
+	flex-direction: row;
+}
 .textoinicio {
 	font-family: $font-family_1;
-	color: $color_1;
-	
+	color: $color_1;	
 }
 header {
 	background-color: $background-color_1;
@@ -44,9 +47,7 @@ header {
 	justify-content: space-around;
 }
 body {
-	background: #0052D4;
-	background: -webkit-linear-gradient(to right, #6FB1FC, #4364F7, #0052D4);
-	background: linear-gradient(to left, #6FB1FC, #4364F7, #0052D4);
+	background:#8FA2CA;
 }
 .tabladepI {
 	width: 50%;

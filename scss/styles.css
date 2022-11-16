@@ -18,6 +18,11 @@
   margin: bottom 0px;
 }
 
+.textocenter {
+  display: flex;
+  flex-direction: row;
+}
+
 .textoinicio {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   color: black;
@@ -48,8 +53,7 @@ header {
 }
 
 body {
-  background: #0052D4;
-  background: linear-gradient(to left, #6FB1FC, #4364F7, #0052D4);
+  background: #8FA2CA;
 }
 
 .tabladepI {
@@ -494,34 +498,23 @@ body {
     margin-bottom: 30px;
   }
 }
-/*@mixin publicidad ( $dis , $direction , $corte , $just , $align ){
-	display: $dis;
-	flex-flow: $direction $corte;
-	justify-content: $just;
-	align-items: $align;
-	object-fit: $object;
+.container-publicidad {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
-.conteiner.publicidad{
-	@include publicidad (block , space-between , cover);
-}
-
-.imgp{
-	@include img( inline-block, space-between)
-
-}
 .titulofinal {
-	margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 .imgp {
+  width: 140px;
+  height: 140px;
+  margin-top: 20px;
+  opacity: 0, 1;
+}
 
-	width: 80px;
-	height: 80px;
-	margin-top: 20px;
-	opacity: 0,1;
-}
 .titulofinal {
-	margin-bottom: 30px;
-}
-*//*# sourceMappingURL=styles.css.map */
+  margin-bottom: 30px;
+}/*# sourceMappingURL=styles.css.map */
