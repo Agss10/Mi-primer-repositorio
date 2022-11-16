@@ -1,12 +1,26 @@
 
-.conteiner.publicidad {
-	display: block;
-	justify-content: space-between;
-	object-fit: cover;
+@mixin publicidad ( $dis , $direction , $corte , $just , $align ){
+	display: $dis;
+	flex-flow: $direction $corte;
+	justify-content: $just;
+	align-items: $align;
+	object-fit: $object;
 }
+
+.conteiner.publicidad{
+	@include publicidad (block , space-between , cover);
+}
+
+.imgp{
+	@include img( inline-block, space-between)
+
+}
+.titulofinal {
+	margin-bottom: 30px;
+}
+
 .imgp {
-	display: inline-block;
-	justify-content: space-between;
+	
 	width: 80px;
 	height: 80px;
 	margin-top: 20px;

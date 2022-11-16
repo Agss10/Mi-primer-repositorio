@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .inicio {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   font-style: italic;
@@ -261,30 +267,49 @@ body {
   width: 250px;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+.navbar-expand-lg, .navbar-brand, .nav-link {
+  color: black;
 }
 
-.conteiner.publicidad {
-  display: block;
-  justify-content: space-between;
-  -o-object-fit: cover;
-     object-fit: cover;
+.navbar {
+  background-color: black;
 }
 
-.imgp {
+.nav-link {
+  color: white;
+}
+.nav-link:hover {
+  color: #2948ff;
+}
+
+.navbar-brand {
+  color: white;
+}
+
+.card__1 {
+  margin-left: 50px;
+  padding: 10px;
   display: inline-block;
-  justify-content: space-between;
-  width: 80px;
-  height: 80px;
-  margin-top: 20px;
-  opacity: 0, 1;
 }
-
-.titulofinal {
-  margin-bottom: 30px;
+.card__title {
+  color: black solid;
+  font-size: larger;
+  font-weight: bold;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.card__text {
+  font-size: medium;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.card__img {
+  width: 250px;
+  height: 250px;
+  display: inline-block;
+}
+.card__btn {
+  color: black;
+  font-weight: bold;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 /* RESPONSIVE MOBILE (iphone xr) */ /*BASQUET2022.HMTL*/
@@ -468,4 +493,35 @@ body {
   .titulofinal {
     margin-bottom: 30px;
   }
-}/*# sourceMappingURL=styles.css.map */
+}
+/*@mixin publicidad ( $dis , $direction , $corte , $just , $align ){
+	display: $dis;
+	flex-flow: $direction $corte;
+	justify-content: $just;
+	align-items: $align;
+	object-fit: $object;
+}
+
+.conteiner.publicidad{
+	@include publicidad (block , space-between , cover);
+}
+
+.imgp{
+	@include img( inline-block, space-between)
+
+}
+.titulofinal {
+	margin-bottom: 30px;
+}
+
+.imgp {
+
+	width: 80px;
+	height: 80px;
+	margin-top: 20px;
+	opacity: 0,1;
+}
+.titulofinal {
+	margin-bottom: 30px;
+}
+*//*# sourceMappingURL=styles.css.map */

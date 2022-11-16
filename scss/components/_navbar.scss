@@ -1,0 +1,18 @@
+$color_1: black;
+$color_2: white;
+$color_3:#2948ff;
+
+.navbar {
+	background-color:  $color_1;
+}
+.nav-link{
+    color: $color_2;
+    &:hover{
+       color: $color_3;
+    }
+}
+.navbar-brand{
+    color: $color_2;
+    
+}
+
