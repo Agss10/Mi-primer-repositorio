@@ -26,6 +26,7 @@
 .textoinicio {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   color: black;
+  font-style: italic;
 }
 
 header {
@@ -56,6 +57,7 @@ body {
   background: #8FA2CA;
 }
 
+/*TABLA DE POSICIONES -INDEX/INICIO-*/
 .tabladepI {
   width: 50%;
   margin-top: 50px;
@@ -68,21 +70,22 @@ body {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   border: solid 1px lightblue;
   margin-top: 50px;
-  color: black;
+  color: white;
+  background-color: black;
   box-shadow: 5px 5px 20px #0f1951;
-  width: 440px;
+  padding-left: 100px;
+  padding-right: 100px;
   height: 610px;
   display: inline-block;
 }
 .tableI td {
-  border-bottom: 1px solid black;
-  padding: 15px;
-  font-size: 20px;
-  justify-content: center;
-  margin-right: 0px;
+  padding: 15px 30px 15px 30px;
+  font-size: x-large;
+  text-align: center;
 }
-.tableI thead {
-  font-weight: 700;
+.tableI .titulotabla {
+  font-weight: 800px;
+  border-bottom: solid 1px lightblue;
 }
 
 .cuadradoI {
@@ -92,6 +95,7 @@ body {
   justify-content: center;
 }
 
+/*GALERIA*/
 .galeria {
   margin-top: 50px;
   margin-bottom: 50px;
@@ -112,6 +116,21 @@ body {
   display: inline-block;
 }
 
+.imgaleria {
+  width: 1000px;
+  height: 500px;
+}
+
+.img {
+  border-radius: 10px;
+  border-style: solid;
+}
+
+.img:hover {
+  transform: scale(1.15);
+}
+
+/*FOOTER*/
 .titulofinal {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   font-size: 100px;
@@ -124,6 +143,7 @@ body {
   font-size: 40px;
 }
 
+/*IMAGENES PUBLICIDAD*/
 .conteiner.publicidad {
   display: block;
   justify-content: space-between;
@@ -140,6 +160,7 @@ body {
   opacity: 0, 1;
 }
 
+/*TABLA DE POSICIONES*/
 .tabladep {
   width: 50%;
   margin-top: 50px;
@@ -152,16 +173,17 @@ body {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   border: solid 1px lightblue;
   margin-top: 50px;
-  color: black;
+  color: white;
+  background-color: black;
   box-shadow: 5px 5px 20px #0f1951;
-  width: 420px;
-  height: 460px;
+  width: 480px;
+  height: 585px;
   display: inline-block;
 }
 .table td {
-  border-bottom: 1px solid black;
   padding: 10px;
-  font-size: 20px;
+  font-size: x-large;
+  border-bottom: #8FA2CA;
 }
 .table thead {
   font-weight: 700;
@@ -174,6 +196,7 @@ body {
   justify-content: center;
 }
 
+/*FIXTURE*/
 .fixture {
   width: 50%;
   margin-top: 50px;
@@ -185,10 +208,11 @@ body {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   border: solid 1px lightblue;
   margin-top: 50px;
-  color: black;
+  color: white;
+  background-color: black;
   box-shadow: 5px 5px 20px #0f1951;
   width: 600px;
-  height: 520px;
+  height: 450px;
   display: inline-block;
 }
 .tableF td {
@@ -207,10 +231,15 @@ body {
   justify-content: center;
 }
 
+/* CARDS */
 .card1 {
   margin-left: 50px;
   padding: 10px;
   display: inline-block;
+}
+
+.card1:hover {
+  transform: scale(1.15);
 }
 
 .card-title {
@@ -235,6 +264,46 @@ body {
   color: black;
   font-weight: bold;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+/*IMAGENES CARROUSEL -BASQUET2022-*/
+.imgb22 {
+  width: 1000px;
+  height: 500px;
+  opacity: 0, 5;
+  margin-top: 100px;
+  transition: 2s;
+}
+
+.titulocaroussel {
+  color: black;
+  background-color: #8FA2CA;
+}
+
+.textocaroussel {
+  background-color: #8FA2CA;
+  color: black;
+}
+
+/*CARROUSEL INDEX*/
+.carouselindex {
+  width: 1000px;
+  height: 500px;
+}
+
+.carousel-item {
+  z-index: -1;
+}
+
+/*TITULO Y SUB CARROUSEL B22*/
+.btn:hover {
+  transform: scale(1.15);
+  background-color: #2948ff;
+}
+
+.fb-like {
+  padding-left: 630px;
+  margin-top: 10px;
 }
 
 .TituloII {
@@ -318,10 +387,13 @@ body {
 
 /* RESPONSIVE MOBILE (iphone xr) */ /*BASQUET2022.HMTL*/
 @media screen and (max-width: 896px) {
+  .navbar-toggler {
+    background-color: rgb(50, 49, 49);
+  }
   .TituloII {
     font-size: 35px;
     text-align: center;
-    font-family: "Bungee Spice", cursive;
+    font-family: "Bungee Spice";
     color: black;
     margin: 110px 60px 30px 0px;
     margin-left: 100px;
@@ -360,7 +432,8 @@ body {
     font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
     border: solid 1px lightblue;
     margin-top: 20px;
-    color: black;
+    color: white;
+    background-color: black;
     box-shadow: 5px 5px 20px #0f1951;
     width: 400px;
     height: 370px;
@@ -379,9 +452,6 @@ body {
     flex-wrap: wrap;
     text-align: center;
     justify-content: center;
-  }
-  .titulo-prox-partidos {
-    margin-top: 0rem;
   }
   .inicio {
     font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
@@ -414,13 +484,32 @@ body {
     font-size: large;
   }
   .card-text {
-    font-size: small;
+    font-size: medium;
     font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    text-align: start;
   }
   .card-img {
-    width: 250px;
-    height: 250px;
+    width: 300px;
+    height: 300px;
     display: inline-block;
+  }
+  .imgb22 {
+    width: 400px;
+    height: 200px;
+    opacity: 0, 5;
+    margin-top: 100px;
+  }
+  .carouselindex {
+    width: 320px;
+    height: 250px;
+  }
+  .titulocaroussel {
+    color: black;
+    background-color: #8FA2CA;
+  }
+  .textocaroussel {
+    background-color: #8FA2CA;
+    color: black;
   }
   .galeria {
     font-size: large;
@@ -430,11 +519,15 @@ body {
     font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   }
   .fotogaleria {
-    display: table-row-group;
+    display: inline-block;
     justify-content: space-around;
     -o-object-fit: cover;
        object-fit: cover;
     margin: 20px 20px;
+  }
+  .imgaleria {
+    width: 400px;
+    height: 200px;
   }
   .tablatitulo {
     font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
@@ -442,25 +535,26 @@ body {
   }
   .table {
     font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-    border: solid 1px lightblue;
+    border: solid 1px white;
     margin-top: 50px;
-    color: black;
+    color: white;
+    background-color: black;
     box-shadow: 5px 5px 20px #0f1951;
-    width: 220px;
-    height: 316px;
+    width: 400px;
+    height: 345px;
     display: inline-block;
+    text-align: center;
   }
   .table td {
-    border-bottom: 1px solid black;
     padding: 5px;
-    font-size: small;
+    font-size: large;
+    justify-content: space-between;
   }
   .cuadradoI {
     display: flexbox;
     flex-wrap: wrap;
     text-align: center;
     justify-content: center;
-    width: 10px;
   }
   .tabladepI {
     width: 50%;
@@ -471,15 +565,23 @@ body {
   }
   .tableI {
     font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-    border: solid 1px lightblue;
     margin-top: 20px;
-    color: black;
+    color: white;
+    background-color: black;
     box-shadow: 5px 5px 20px #0f1951;
-    width: 390px;
-    height: 610px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 100%;
+    height: 500px;
     display: inline-block;
     font-size: medium;
   }
+  .tableI td {
+    border-bottom: none;
+    padding: 5px 3px 5px 3px;
+  }
+}
+@media screen and (max-width: 896px) {
   .conteiner.publicidad {
     display: block;
     justify-content: space-between;
@@ -489,13 +591,18 @@ body {
   .imgp {
     display: inline-block;
     justify-content: space-between;
-    width: 80px;
-    height: 80px;
+    width: 1px;
+    height: 1px;
     margin-top: 20px;
-    opacity: 0, 1;
   }
   .titulofinal {
     margin-bottom: 30px;
+  }
+  .titulocaroussel {
+    font-size: x-small;
+  }
+  .textocaroussel {
+    font-size: smaller;
   }
 }
 .container-publicidad {
@@ -509,8 +616,8 @@ body {
 }
 
 .imgp {
-  width: 140px;
-  height: 140px;
+  width: 150px;
+  height: 150px;
   margin-top: 20px;
   opacity: 0, 1;
 }

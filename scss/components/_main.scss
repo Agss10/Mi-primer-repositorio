@@ -24,6 +24,7 @@ $background-color_1: #2948ff;
 .textoinicio {
 	font-family: $font-family_1;
 	color: $color_1;	
+	font-style: italic;
 }
 header {
 	background-color: $background-color_1;
@@ -49,6 +50,8 @@ header {
 body {
 	background:#8FA2CA;
 }
+
+/*TABLA DE POSICIONES -INDEX/INICIO-*/
 .tabladepI {
 	width: 50%;
 	margin-top: 50px;
@@ -58,22 +61,26 @@ body {
 }
 .tableI {
 	font-family: $font-family_1;
+	
 	border: solid 1px lightblue;
 	margin-top: 50px;
-	color: $color_1;
+	color: white;
+	background-color: black;
 	box-shadow: 5px 5px 20px #0f1951;
-	width: 440px;
+	padding-left: 100px;
+	padding-right: 100px;
 	height: 610px;
-	display: inline-block;
+	display: inline-block; 
 	td {
-		border-bottom: 1px solid black;
-		padding: 15px;
-		font-size: 20px;
-		justify-content: center;
-		margin-right: 0px;
+		padding: 15px 30px 15px 30px;
+		font-size: x-large;
+		text-align: center;
+		
 	}
-	thead {
-		font-weight: 700;
+	.titulotabla{
+		font-weight: 800px;
+		border-bottom: solid 1px lightblue;
+		
 	}
 }
 .cuadradoI {
@@ -82,12 +89,16 @@ body {
 	text-align: center;
 	justify-content: center;
 }
+
+/*GALERIA*/
+
 .galeria {
 	margin-top: 50px;
 	margin-bottom: 50px;
 	color: $color_1;
 	font-family: $font-family_1;
 	font-style: italic;
+	
 }
 .fotogaleria {
 	display: inline-block;
@@ -98,6 +109,23 @@ body {
 .menu {
 	display: inline-block;
 }
+
+.imgaleria{
+	width: 1000px;
+	height: 500px;
+}
+.img{
+	border-radius: 10px;
+	border-style:solid;
+   
+}
+
+.img:hover{
+	transform: scale(1.15);
+}
+
+/*FOOTER*/
+
 .titulofinal {
 	font-family: $font-family_1;
 	font-size: 100px;
@@ -108,6 +136,9 @@ body {
 	color: $color_2;
 	font-size: 40px;
 }
+
+/*IMAGENES PUBLICIDAD*/
+
 .conteiner.publicidad {
 	display: block;
 	justify-content: space-between;
@@ -121,6 +152,9 @@ body {
 	margin-top: 50px;
 	opacity: 0,1;
 }
+
+/*TABLA DE POSICIONES*/
+
 .tabladep {
 	width: 50%;
 	margin-top: 50px;
@@ -132,15 +166,18 @@ body {
 	font-family: $font-family_1;
 	border: solid 1px lightblue;
 	margin-top: 50px;
-	color: $color_1;
+	color: white;
+	background-color: black;
 	box-shadow: 5px 5px 20px #0f1951;
-	width: 420px;
-	height: 460px;
+	width: 480px;
+	height: 585px;
 	display: inline-block;
 	td {
-		border-bottom: 1px solid black;
 		padding: 10px;
-		font-size: 20px;
+		font-size: x-large;
+		border-bottom: #8FA2CA;
+		
+		
 	}
 	thead {
 		font-weight: 700;
@@ -152,6 +189,10 @@ body {
 	text-align: center;
 	justify-content: center;
 }
+
+
+/*FIXTURE*/
+
 .fixture {
 	width: 50%;
 	margin-top: 50px;
@@ -162,10 +203,11 @@ body {
 	font-family: $font-family_1;
 	border: solid 1px lightblue;
 	margin-top: 50px;
-	color: $color_1;
+	color: white;
+	background-color: black;
 	box-shadow: 5px 5px 20px #0f1951;
 	width: 600px;
-	height: 520px;
+	height: 450px;
 	display: inline-block;
 	td {
 		border-bottom: 1px solid black;
@@ -182,10 +224,17 @@ body {
 	text-align: center;
 	justify-content: center;
 }
+
+/* CARDS */
+
+
 .card1 {
 	margin-left: 50px;
 	padding: 10px;
 	display: inline-block;
+}
+.card1:hover{
+	transform: scale(1.15);
 }
 .card-title {
 	color: $color_2;
@@ -206,4 +255,44 @@ body {
 	color: $color_1;
 	font-weight: bold;
 	font-family: $font-family_1;
+}
+/*IMAGENES CARROUSEL -BASQUET2022-*/
+
+.imgb22{
+	width: 1000px;
+	height: 500px;
+	opacity: 0,5;
+	margin-top: 100px;
+	transition: 2s;
+	
+}
+.titulocaroussel{
+	color: black;
+	background-color: #8FA2CA;
+}
+.textocaroussel{
+	background-color: #8FA2CA;
+	color: black;
+}
+
+/*CARROUSEL INDEX*/
+
+.carouselindex{
+	width: 1000px ;
+	height: 500px ;
+}
+.carousel-item{
+	z-index: -1;
+}
+
+/*TITULO Y SUB CARROUSEL B22*/
+.btn:hover{
+	transform: scale(1.15);
+	background-color:#2948ff;
+	
+}
+
+.fb-like{
+    padding-left: 630px;
+	margin-top: 10px;
 }

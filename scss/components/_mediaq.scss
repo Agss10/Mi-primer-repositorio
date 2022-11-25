@@ -1,9 +1,15 @@
 $color_1: black;
-$font-family_1: 'Bungee Spice', cursive;
+$font-family_1: 'Bungee Spice';
 $background-color_1: #2948ff;
+$color_2: white;
 
 /* RESPONSIVE MOBILE (iphone xr) *//*BASQUET2022.HMTL*/
 @media screen and (max-width: 896px) {
+
+	.navbar-toggler{
+		background-color: rgb(50, 49, 49);
+	}
+
 	.TituloII {
 		font-size: 35px;
 		text-align: center;
@@ -51,7 +57,8 @@ $font-family_1: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida S
 		font-family: $font-family_1;
 		border: solid 1px lightblue;
 		margin-top: 20px;
-		color: $color_1;
+		color: white;
+		background-color: black;
 		box-shadow: 5px 5px 20px #0f1951;
 		width: 400px;
 		height: 370px;
@@ -71,9 +78,7 @@ $font-family_1: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida S
 		text-align: center;
 		justify-content: center;
 	}
-	.titulo-prox-partidos {
-		margin-top: 0rem;
-	}
+
 	.inicio {
 		font-family: $font-family_1;
 		color: $color_1;
@@ -105,13 +110,35 @@ $font-family_1: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida S
 		font-size: large;
 	}
 	.card-text {
-		font-size: small;
+		font-size: medium;
 		font-family: $font-family_1;
+		text-align: start;
 	}
 	.card-img {
-		width: 250px;
-		height: 250px;
+		width: 300px;
+		height: 300px;
 		display: inline-block;
+	}
+
+	.imgb22{
+		width: 400px;
+		height: 200px;
+		opacity: 0,5;
+		margin-top: 100px;
+	}
+
+  .carouselindex{
+	width: 320px;
+	height: 250px;
+  }
+
+	.titulocaroussel{
+		color: black;
+		background-color: #8FA2CA;
+	}
+	.textocaroussel{
+		background-color: #8FA2CA;
+		color: black;
 	}
 	.galeria {
 		font-size: large;
@@ -121,10 +148,14 @@ $font-family_1: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida S
 		font-family: $font-family_1;
 	}
 	.fotogaleria {
-		display: table-row-group;
+		display:inline-block;
 		justify-content: space-around;
 		object-fit: cover;
 		margin: 20px 20px;
+	}
+    .imgaleria{
+		width: 400px;
+		height: 200px;
 	}
 	.tablatitulo {
 		font-family: $font-family_1;
@@ -132,25 +163,30 @@ $font-family_1: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida S
 	}
 	.table {
 		td {
-			border-bottom: 1px solid black;
 			padding: 5px;
-			font-size: small;
+			font-size: large;
+			justify-content: space-between;
+		
+			
+
 		}
 		font-family: $font-family_1;
-		border: solid 1px lightblue;
+		border: solid 1px white;
 		margin-top: 50px;
-		color: $color_1;
+		color: white;
+		background-color: black;
 		box-shadow: 5px 5px 20px #0f1951;
-		width: 220px;
-		height: 316px;
+		width: 400px;
+		height: 345px;
 		display: inline-block;
+		text-align: center;
 	}
 	.cuadradoI {
 		display: flexbox;
 		flex-wrap: wrap;
 		text-align: center;
 		justify-content: center;
-		width: 10px;
+		
 	}
 	.tabladepI {
 		width: 50%;
@@ -160,16 +196,27 @@ $font-family_1: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida S
 		font-size: small;
 	}
 	.tableI {
+		td{border-bottom: none;
+			padding: 5px 3px 5px 3px;
+
+		}
 		font-family: $font-family_1;
-		border: solid 1px lightblue;
 		margin-top: 20px;
-		color: $color_1;
+		
+		color: white;
+		background-color: black;
 		box-shadow: 5px 5px 20px #0f1951;
-		width: 390px;
-		height: 610px;
+		padding-left: 10px; ;
+		padding-right: 10px;
+		width: 100%;
+		height: 500px;
 		display: inline-block;
 		font-size: medium;
 	}
+}
+
+@media screen and (max-width: 896px) {
+
 	.conteiner.publicidad {
 		display: block;
 		justify-content: space-between;
@@ -178,12 +225,19 @@ $font-family_1: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida S
 	.imgp {
 		display: inline-block;
 		justify-content: space-between;
-		width: 80px;
-		height: 80px;
+		width: 1px;
+		height: 1px;
 		margin-top: 20px;
-		opacity: 0,1;
+
 	}
 	.titulofinal {
 		margin-bottom: 30px;
+	}
+
+	.titulocaroussel{
+		font-size: x-small;
+	}
+	.textocaroussel{
+		font-size: smaller;
 	}
 }
